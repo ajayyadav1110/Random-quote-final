@@ -70,9 +70,10 @@ document.body.addEventListener('click', function(e){
     var self = this,
         old_bg = this.style.background;
 
+    this.style.background = this.style.background=='#db544a'? '#0a2c63':'#db544a';
     setTimeout(function(){
         self.style.background = old_bg;
-    }, 1000);
+    }, 500);
 })
 
 
